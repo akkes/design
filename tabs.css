@@ -1,0 +1,124 @@
+html, body {
+	max-width: 1023px;
+	padding: 0;
+	margin: auto;
+	background-color: #ffffff;
+	font-family: sans-serif;
+	}
+
+a {
+	color: #419DC5;
+	border-bottom: 3px #0E7BA3 dotted;
+	text-decoration: none;
+}
+
+header {
+	border-bottom: 1px #000000 solid;
+	position: fixed;
+	z-index: 5;
+	top: 0px;
+	width: 100%;
+	max-width: 1023px;
+	height: 40px;
+	background-color: #333333;
+	}
+
+h1#link {display: none}
+
+#quick {
+	position: absolute;
+	right: 0px;
+	top: 10px;
+	}
+
+#quick > h2 {
+	margin-left: 15px;
+	}
+
+#quick > h2 > a {
+	color: #657FAB;
+}
+
+h1 > a {
+	color: #ffffff;
+	border-bottom: none;
+}
+
+h1, h2 {
+	display: inline;
+	}
+
+nav {
+	position: fixed;
+	z-index: 4;
+	display: block;
+	top: -300px;
+	width: 100%;
+	max-width: 1023px;
+	padding: 0px 0px 50px 0px;
+	color: #fff;
+	-moz-transition: top 1s 0s ease;
+	-o-transition: top 1s 0s ease;
+	background-color: transparent;
+	background-image: -moz-linear-gradient(top , #419DC5 90%, transparent 100%);
+	background-image: -o-linear-gradient(top , #419DC5 90%, transparent 100%);
+	background-image: linear-gradient(top , #419DC5 90%, transparent 100%);
+	background-image: -webkit-linear-gradient(top , #419DC5 90%, transparent 100%);
+	background-image: -ms-linear-gradient(top , #419DC5 90%, transparent 100%);
+	background-image: -webkit-gradient(
+		linear,
+		left top,
+		left bottom,
+		color-stop(0.9, #419DC5),
+		color-stop(1, transparent)
+	);
+	}
+
+ul { 
+	padding: 0px 0px 0px 40px;
+	margin: 16px 0px;
+	}
+
+#access #hided, #access:target #showed {
+	display: inline;
+	}
+
+#access #showed, #access:target #hided {
+	display: none;
+	}
+
+#access:target nav {
+	display: block;
+	top: 40px;
+	-moz-transition: top 1s 0s ease;
+	-o-transition: top 1s 0s ease;
+	}
+
+li.colonne {
+	display: inline;
+	float: left;
+	list-style-type:none;
+	height: 195px;
+	width: 33%;
+	}
+#corpus {
+	margin-top: 50px;
+	clear: none;
+	padding: 15px;
+	}
+
+h5 { color: #0E7BA3 }
+
+h4 { color: #419DC5 }
+
+p {
+	text-align: justify;
+	width: 100%;
+	}
+
+footer {
+	background-color: #333333;
+	padding: 5px;
+	bottom: 0px;
+	color: #ffffff;
+}
